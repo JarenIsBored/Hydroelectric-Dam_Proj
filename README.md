@@ -25,14 +25,3 @@ Used the Lcd to display the water level increments and 7seg to display the tempe
 - Created a timer interrupt that increments the water level until max and decrement it until minmum and it will continously loop.
 - Used adc conversion to get temperature from lm35 and display it on the 7seg.
 
-### Microcontroller front
-<img src="mcapp/normal.jpg" alt="Front" width="800" height="600"><br/>
-
-### Microcontroller back
-<img src="mcapp/back.jpg" alt="Back" width="800" height="600"><br/>
-
-### Normal operation
-<img src="mcapp/normal.jpg" alt="Normal" width="800" height="600"><br/>
-
-### Manual operation
-<img src="mcapp/manual.jpg" alt="Manual" width="800" height="600"><br/>
