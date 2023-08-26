@@ -10,12 +10,6 @@ For this collaborative project, I was tasked with designing a microcontroller-ba
 
 ## Board Operations
 
-### Microcontroller front
-<img src="mcapp/normal.jpg" alt="Front" width="800" height="600"><br/>
-
-### Microcontroller back
-<img src="mcapp/back.jpg" alt="Back" width="800" height="600"><br/>
-
 The system emulates the behavior of a hydroelectric dam through real-time monitoring and control. It oversees parameters such as temperature, water levels, and gate statuses. Notable features include:
 
 - Displaying temperature on a 7-segment display.
@@ -23,6 +17,14 @@ The system emulates the behavior of a hydroelectric dam through real-time monito
 - Activating alerts with sound and lighting when water levels reach critical points.
 - Allowing manual gate control through button inputs.
 - Automating gate opening and closing based on predefined time intervals.
+
+### Microcontroller Visuals
+
+#### Microcontroller Front
+![Microcontroller Front](mcapp/normal.jpg)
+
+#### Microcontroller Back
+![Microcontroller Back](mcapp/back.jpg)
 
 ## Software Features
 
@@ -52,8 +54,10 @@ Throughout the project, I played a part by:
 - Creating a timer interrupt that manages water level adjustments within specific thresholds.
 - Utilizing analog-to-digital conversion to read temperature from the LM35 sensor and display it on the 7-segment display.
 
-### Normal operation
-<img src="mcapp/normal.jpg" alt="Normal" width="800" height="600"><br/>
+### Operational Visuals
 
-### Manual operation
-<img src="mcapp/manual.jpg" alt="Manual" width="800" height="600"><br/>
+#### Normal Operation
+![Normal Operation](mcapp/normal.jpg)
+
+#### Manual Operation
+![Manual Operation](mcapp/manual.jpg)
