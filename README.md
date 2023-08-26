@@ -1,27 +1,59 @@
 # Hydroelectric-Dam_Proj
-Hydroelectric dam project for renewable energy. 30% of renewables, 7% of US power. Hydroelectric dam requires a stable water level and consistent electricity generation for a nearby town.
 
-For this group project, I have been tasked to designed a microcontroller system for the hydroelectric dam to monitor temperature, water level, gate operations, provide alerts through sound and lights, enable manual overrides, and automatically regulate water quality by controlling inflow and exchange.
+## Overview
 
-### Board Operations
-To simulate a Hydroelectric damn, the target board will monitor the temperature, water level, and gate status. The temperature will be displayed on a 7-segment display. The water level will be displayed on the LCD as a percentage. When the water level is max/min, an alert will sound and the motor will be activated to open/close gate and update on lcd as well. The operator can manually open/close a gate by pressing a button. After a certain duration, the gate will automatically open to realease water and close after a while.
+This project focuses on a hydroelectric dam system that contributes 30% of renewable energy and 7% of the US power supply. The dam plays a crucial role in maintaining a consistent water level and stable electricity generation for a neighboring town.
 
-### Software features used
-- Polling of input pins
-- External Interrupt
-- Timers
-- Analog-to-digital conversion
+## Project Description
 
-### Hardware components used
-- LEDs, toggle switches, push-buttons
-- Seven-segment display
-- 16 by 2 LCD
-- Speaker
-- motor
-- LM35
+For this collaborative project, I was tasked with designing a microcontroller-based system for the hydroelectric dam. The system's key functionalities include monitoring temperature, water levels, gate operations, issuing alerts through sound and lights, enabling manual overrides, and autonomously regulating water quality through inflow and exchange control.
 
-### Personal Contributions
-Used the Lcd to display the water level increments and 7seg to display the temperature
-- Created a timer interrupt that increments the water level until max and decrement it until minmum and it will continously loop.
-- Used adc conversion to get temperature from lm35 and display it on the 7seg.
+## Board Operations
 
+### Microcontroller front
+<img src="mcapp/normal.jpg" alt="Front" width="800" height="600"><br/>
+
+### Microcontroller back
+<img src="mcapp/back.jpg" alt="Back" width="800" height="600"><br/>
+
+The system emulates the behavior of a hydroelectric dam through real-time monitoring and control. It oversees parameters such as temperature, water levels, and gate statuses. Notable features include:
+
+- Displaying temperature on a 7-segment display.
+- Presenting water levels as a percentage on an LCD screen.
+- Activating alerts with sound and lighting when water levels reach critical points.
+- Allowing manual gate control through button inputs.
+- Automating gate opening and closing based on predefined time intervals.
+
+## Software Features
+
+The software components are developed using a variety of techniques, including:
+
+- Polling of input pins to monitor state changes.
+- Utilizing external interrupts to respond to critical events.
+- Employing timers to execute specific actions at predefined intervals.
+- Conducting analog-to-digital conversion to measure temperature.
+
+## Hardware Components
+
+The hardware components used in this project include:
+
+- LEDs, toggle switches, and push-buttons for user interactions.
+- A seven-segment display to visualize temperature.
+- A 16x2 LCD for water level presentation.
+- A speaker for audio alerts.
+- A motor for gate control.
+- An LM35 temperature sensor for temperature monitoring.
+
+## Personal Contributions
+
+Throughout the project, I played a part by:
+
+- Implementing the LCD display to showcase incremental water level changes.
+- Creating a timer interrupt that manages water level adjustments within specific thresholds.
+- Utilizing analog-to-digital conversion to read temperature from the LM35 sensor and display it on the 7-segment display.
+
+### Normal operation
+<img src="mcapp/normal.jpg" alt="Normal" width="800" height="600"><br/>
+
+### Manual operation
+<img src="mcapp/manual.jpg" alt="Manual" width="800" height="600"><br/>
