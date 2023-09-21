@@ -45,3 +45,19 @@ Throughout the project, I played a part by:
 - Implementing the LCD display to showcase incremental water level changes.
 - Creating a timer interrupt that manages water level adjustments within specific thresholds.
 - Utilizing analog-to-digital conversion to read temperature from the LM35 sensor and display it on the 7-segment display.
+
+### Microcontroller Visuals
+
+#### Microcontroller Front
+![Microcontroller Front](mcapp/normal.jpg)
+
+#### Microcontroller Back
+![Microcontroller Back](mcapp/back.jpg)
+
+### Operational Visuals
+
+#### Normal Operation
+![Normal Operation](mcapp/normal.jpg)
+
+#### Manual Operation
+![Manual Operation](mcapp/manual.jpg)
